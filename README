@@ -8,6 +8,7 @@ requests (pip install requests or manualy from https://github.com/kennethreitz/r
 
 EXAMPLE
 -----------------------------
+>> from imageoutthere import ImageOutThere
 >> image = ImageOutThere('http://bit.ly/SN7cMz')
 >> print(image.is_image)
 True
