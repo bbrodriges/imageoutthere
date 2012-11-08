@@ -1,0 +1,25 @@
+ABOUT
+-----------------------------
+imageoutthere is a tiny python module to extract images information from shortened links.
+
+DEPENDANCIES
+-----------------------------
+requests (pip install requests or manualy from https://github.com/kennethreitz/requests/)
+
+EXAMPLE
+-----------------------------
+>> image = ImageOutThere('http://bit.ly/SN7cMz')
+>> print(image.is_image)
+True
+>> print(image.link)
+https://www.google.com/logos/2012/bram-stoker-2012-hp.jpg
+>> print(image.type)
+'image/jpeg'
+>> print(image.size)
+67370
+>> print(image.redirects)
+1
+
+LICENSE
+-----------------------------
+No license at all. Do with this code whatever you want.
