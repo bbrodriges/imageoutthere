@@ -68,6 +68,3 @@ class imagehtmlparser(HTMLParser):
             if attr and (attr[0] == 'content' or attr[0] == 'src'):
                 if self.needle in attr[1]:
                     self.direct_link = attr[1]
-
-img = ImageOutThere('http://pic.twitter.com/Il9fojx4')
-print(img.link, img.size, img.type)
